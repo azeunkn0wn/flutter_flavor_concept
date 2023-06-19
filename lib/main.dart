@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_flavor_concept/config/flavors.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'app.dart';
+import 'pages/app.dart';
 import 'config/environments.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 

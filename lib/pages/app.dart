@@ -6,7 +6,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 
 import 'package:flutter_flavor_concept/config/environments.dart';
 
-import 'config/flavors.dart';
+import '../config/flavors.dart';
 
 class App extends StatelessWidget {
   final PackageInfo packageInfo;

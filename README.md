@@ -1,16 +1,53 @@
 # flutter_flavor_concept
 
-A new Flutter project.
+Utilizing Flutter flavor feature combined with environmental variables.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+**Step 1:**
 
-A few resources to get you started if this is your first Flutter project:
+Download or clone this repo by using the command below:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/azeunkn0wn/flutter_flavor_concept.git
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies:
+
+```bash
+flutter pub get 
+```
+
+**Step 3:**
+
+**!!! Under Construction !!!**
+
+<!-- TODO: Create docs -->
+
+## Run app with Android
+
+### **Meetyoda debug mode**
+
+```bash
+flutter run --flavor meetyoda -t lib/main_meetyoda.dart
+```
+
+### **MeetYoda release mode**
+
+```bash
+flutter run --release --flavor meetyoda -t lib/main_meetyoda.dart
+```
+
+### **myvcmo debug mode**
+
+```bash
+flutter run --flavor myvcmo -t lib/main_meetyoda.dart
+```
+
+### **myvcmo release mode**
+
+```bash
+flutter run --release --flavor myvcmo -t lib/main_meetyoda.dart
+```

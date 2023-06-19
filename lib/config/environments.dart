@@ -15,6 +15,6 @@ class Environment {
   }
 
   static String get baseURL {
-    return dotenv.get('API_URL');
+    return dotenv.get('BASE_URL');
   }
 }

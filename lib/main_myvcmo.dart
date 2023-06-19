@@ -1,0 +1,8 @@
+import 'config/flavors.dart';
+
+import 'main.dart' as runner;
+
+Future<void> main() async {
+  F.appFlavor = Flavor.myvcmo;
+  await runner.main();
+}

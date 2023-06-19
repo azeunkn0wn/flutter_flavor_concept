@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "meetYoda (Debug)",
+            "program": "lib/main_meetyoda.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--flavor",
+                "meetyoda"
+            ]
+        },
+        {
+            "name": "meetYoda (Release)",
+            "program": "lib/main_meetyoda.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--flavor",
+                "meetyoda"
+            ]
+        },
+        {
+            "name": "myvcmo (Debug)",
+            "program": "lib/main_myvcmo.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--flavor",
+                "myvcmo"
+            ]
+        },
+        {
+            "name": "myvcmo (Release)",
+            "program": "lib/main_myvcmo.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "args": [
+                "--flavor",
+                "myvcmo"
+            ]
+        }
+    ]
+}

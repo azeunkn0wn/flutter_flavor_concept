@@ -5,8 +5,8 @@ flavors:
 
     android:
       applicationId: "com.maennche.meetyoda"
-    ios:
-      bundleId: "com.maennche.meetyoda"
+    # ios:
+    #   bundleId: "com.maennche.meetyoda"
 
   myvcmo:
     app:
@@ -14,5 +14,5 @@ flavors:
 
     android:
       applicationId: "com.maennche.myvcmo"
-    ios:
-      bundleId: "com.maennche.myvcmo"
+    # ios:
+    #   bundleId: "com.maennche.myvcmo"

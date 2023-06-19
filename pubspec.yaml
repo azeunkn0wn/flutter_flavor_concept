@@ -13,8 +13,14 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  flutter_dotenv: ^5.1.0
+  package_info_plus: ^4.0.2
 
 dev_dependencies:
+  build_runner: ^2.4.5
+  flutter_flavorizr: ^2.2.1
+  flutter_launcher_icons: ^0.13.1
+
   flutter_test:
     sdk: flutter
 
@@ -22,3 +28,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  # TODO: A widget might contain a flavor specific image like Logo.
+  assets:
+    - env/meetyoda/
+    - env/myvcmo/
+    - assets/images/

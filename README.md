@@ -1,6 +1,7 @@
 # flutter_flavor_concept
 
-Utilizing Flutter flavor feature combined with environmental variables.
+Utilizing Flutter flavor feature combined with environmental variables to create two slightly different apps with a single codebase.
+***
 
 ## Getting Started
 
@@ -22,9 +23,18 @@ flutter pub get
 
 **Step 3:**
 
-**!!! Under Construction !!!**
+Create environment directory and `.env` files.
 
-<!-- TODO: Create docs -->
+- env
+  - meetyoda
+    - .env.development
+    - .env.production
+  - myvcmo
+    - .env.development
+    - .env.production
+
+Refer to the `.env.example` for the content of each `.env` files.
+***
 
 ## Run app with Android
 
@@ -51,3 +61,37 @@ flutter run --flavor myvcmo -t lib/main_meetyoda.dart
 ```bash
 flutter run --release --flavor myvcmo -t lib/main_meetyoda.dart
 ```
+
+***
+
+## Screenshots
+
+<div style="height: 20px;"></div>
+
+### App Launcher Icon
+
+<img src="docs/images/launcher.png" alt="Alt Text" width="300">
+
+<div style="height: 20px;"></div>
+
+### MeetYoda debug mode
+
+<img src="docs/images/meetyoda_debug.png" alt="Alt Text" width="300">
+
+<div style="height: 20px;"></div>
+
+### MeetYoda release mode
+
+<img src="docs/images/meetyoda_release.png" alt="Alt Text" width="300">
+
+<div style="height: 20px;"></div>
+
+### myvcmo debug mode
+
+<img src="docs/images/myvcmo_debug.png" alt="Alt Text" width="300">
+
+<div style="height: 20px;"></div>
+
+### myvcmo release mode
+
+<img src="docs/images/myvcmo_release.png" alt="Alt Text" width="300">

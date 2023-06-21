@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_flavor_concept/config/flavors.dart';
+import 'config/flavors.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'pages/app.dart';
 import 'config/environments.dart';

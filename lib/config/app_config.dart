@@ -1,5 +1,5 @@
-import 'package:flutter_flavor_concept/models/app_config_model.dart';
-import 'package:flutter_flavor_concept/utils/theme_data.dart';
+import '../models/app_config_model.dart';
+import '../utils/theme_data.dart';
 
 final AppConfig meetYodaAppConfig = AppConfig(
   title: 'MeetYoda',

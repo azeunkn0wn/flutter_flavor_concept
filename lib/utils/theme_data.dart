@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_flavor_concept/utils/colors.dart';
+import 'colors.dart';
 
 final ThemeData meetYodaThemeLight = ThemeData(
     applyElevationOverlayColor: false,

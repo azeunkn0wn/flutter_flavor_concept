@@ -328,3 +328,5 @@ final ThemeData myvcmoThemeLight = ThemeData(
             tertiaryContainer: Color(0xff03dac6))
         .copyWith(background: primaryColor)
         .copyWith(error: const Color(0xffd32f2f)));
+
+ThemeData defaultThemData = meetYodaThemeLight;
